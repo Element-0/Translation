@@ -1,0 +1,59 @@
+commands.generic.selector.empty=Böyle bir oyuncu yok.
+commands.generic.selector.tooManyTargets=Çok fazla hedef seçili.
+commands.generic.error.invalidPlayer='%s', bu komutu sadece oyuncular kullanabilir.
+
+commands.tpa.description=Oyunculara ışınlanma isteği gönder.
+commands.tpa.error.pending=Bu oyuncunun beklenen daveti var.
+commands.tpa.message.sent=%s yanına ışınlanmak istiyor.
+commands.tpa.message.reject=Işınlanma isteğiniz reddedildi.
+commands.tpa.success=Işınlanma isteği gönderildi.
+commands.tpa.error.empty=Beklenen bir ışınlanma isteği yok.
+commands.tpaccept.success=%s oyuncunun ışınlanma isteği kabul edildi.
+commands.tpdeny.success=%s oyuncunun ışınlanma isteği reddedildi.
+commands.tpaccept.description=Işınlanma isteğini kabul et.
+commands.tpdeny.description=Işınlanma isteğini reddet.
+
+commands.custom-name.description=Takma isim ekle.
+commands.custom-name.success.set=%d oyuncusunun ismi değiştirildi.
+commands.custom-name.success.clear=%d oyuncusunun ismi yenilendi.
+
+commands.ban.description=Oyuncuları yasakla.
+commands.ban.success.uuid=%s yasaklandı (UUID: %s).
+commands.ban.success.xuid=%s yasaklandı (XUID: %d).
+commands.ban.error.unexpected=Oyuncu bulunamadı.
+commands.ban.error.no.empty=Oyuncu yasaklanamadı.
+commands.ban.success.name=%s yasaklandı.
+
+commands.unban.description=Oyuncuların engellerini kaldır. uuid/xuid/name.
+commands.unban.success.uuid=%s oyuncusunun engeli kaldırıldı (uuid).
+commands.unban.success.xuid=%d oyuncusunun engeli kaldırıldı (xuid).
+commands.unban.success.name=%s ouuncusunun engeli kaldırıldı.
+commands.unban.error.not.found=%s bulunamadı.
+commands.unban.error.no.empty=Oyuncu bulunamadı.
+commands.unban.error.not.found.uuid=UUID %s yasaklanmamış.
+commands.unban.error.not.found.xuid=XUID %s yasaklanmamış.
+commands.unban.error.not.found.xuid=%s bulunamadı.
+
+commands.audit.description=Oyuncunun denetimi.
+commands.audit.success=Denetim durumu: %s.
+
+commands.home.description=Eve ışınlan.
+commands.home.error=Ev bulunamadı.
+commands.home.success=Eve ışınlandınız.
+
+commands.warp.description=Warp sistemi.
+commands.warp.success.count=%d tane warpa sahipsin.
+commands.warp.success.list=[%s@%d] (%s)
+commands.warp.error.format=Yazı formatı kabul edilemez.
+commands.warp.success.warp=%s (Location: %s) alanına ışınlandınız.
+commands.warp.error.warp.not.found=%s bulunamadı.
+commands.warp.success.set=Warp %s kaydedildi (Location： %s).
+commands.warp.success.del=Warp %s kaldırıldı.
+commands.warp.error.set=Warp kaydedilemedi %s: %s
+commands.warp.error.del=Warp kaldırılamadı %s: %s
+
+commands.force-kick.description=Oyuncuyu zorla tekmele.
+commands.force-kick.success=Oyuncu başarıyla kaldırıldı.
+
+commands.spawn-protection.description=Spawn Koruma Sistemi
+commands.spawn-protection.success=Spawn Koruma Durumu: %s.
