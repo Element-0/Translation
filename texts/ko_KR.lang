@@ -1,0 +1,59 @@
+commands.generic.selector.empty=대상 선택기가 없습니다.
+commands.generic.selector.tooManyTargets=선택자와 일치하는 대상이 너무 많습니다.
+commands.generic.error.invalidPlayer='%s' 명령은 플레이어만 사용할 수 있습니다.
+
+commands.tpa.description=플레이어에게 tpa 요청을 보냅니다.
+commands.tpa.error.pending=보류 중인 tpa 요청이 있습니다.
+commands.tpa.message.sent=%s님이 순간 이동하도록 요청했습니다.
+commands.tpa.message.reject=대상 플레이어가 순간 이동 요청을 거부했습니다.
+commands.tpa.success=순간 이동 요청이 전송되었습니다.
+commands.tpa.error.empty=보류 중인 순간 이동 요청이 없습니다.
+commands.tpaccept.success=%s가 보낸 순간 이동 요청을 수락하였습니다.
+commands.tpdeny.success=%s가 보낸 순간 이동 요청이 거부되었습니다.
+commands.tpaccept.description=순간 이동 요청을 수락합니다.
+commands.tpdeny.description=순간 이동 요청이 거부되었습니다.
+
+commands.custom-name.description=커스텀 이름을 설정합니다.
+commands.custom-name.success.set=%d 플레이어들의 커스텀 이름을 성공적으로 변경했습니다.
+commands.custom-name.success.clear=%d 플레이어들의 커스텀 이름을 성공적으로 재설정했습니다.
+
+commands.ban.description=블랙리스트에 플레이어를 추가합니다.
+commands.ban.success.uuid=%s를 블랙리스트에 추가하였습니다. (UUID: %s).
+commands.ban.success.xuid=%s를 블랙리스트에 추가하였습니다. (XUID: %d).
+commands.ban.error.unexpected=예기치 않은 오류로 인해 플레이어를 찾을 수 없습니다.
+commands.ban.error.no.empty=빈 이름은 블랙리스트에 추가할 수 없습니다.
+commands.ban.success.name=%s를 블랙리스트에 추가하였습니다.
+
+commands.unban.description=블랙리스트에서 UUID/XUID/이름을 제거합니다.
+commands.unban.success.uuid=UUID %s를 블랙리스트에서 삭제하였습니다.
+commands.unban.success.xuid=XUID %d를 블랙리스트에서 삭제하였습니다.
+commands.unban.success.name=%s를 블랙리스트에서 삭제하였습니다.
+commands.unban.error.not.found=%s를 블랙리스트에서 삭제하지 못했습니다. 철자를 확인해주세요.
+commands.unban.error.no.empty=빈 이름은 블랙리스트에서 삭제할 수 없습니다.
+commands.unban.error.not.found.uuid=UUID %s는 블랙리스트에 존재하지 않습니다.
+commands.unban.error.not.found.xuid=XUID %s는 금지되지 않습니다.
+commands.unban.error.not.found.xuid=%s를 블랙리스트에서 삭제하지 못했습니다. 철자를 확인해주세요.
+
+commands.audit.description=플레이어의 세부 정보를 감사합니다.
+commands.audit.success=감사 상태: %s.
+
+commands.home.description=플레이어의 집으로 순간 이동합니다.
+commands.home.error=집이 설정되어 있지 않습니다.
+commands.home.success=집으로 순간 이동되었습니다.
+
+commands.warp.description=워프 시스템
+commands.warp.success.count=%d개의 워프가 있습니다.
+commands.warp.success.list=[%s@%d] (%s)
+commands.warp.error.format=잘못된 이름입니다.
+commands.warp.success.warp=%s(으)로 순간 이동했습니다 (좌표: %s).
+commands.warp.error.warp.not.found=워프 %s을(를) 찾을 수 없습니다.
+commands.warp.success.set=워프 %s가 설정되었습니다 (좌표: %s).
+commands.warp.success.del=워프 %s이(가) 삭제되었습니다.
+commands.warp.error.set=워프 %s을(를) 설정할 수 없습니다: %s
+commands.warp.error.del=워프 %s을(를) 삭제할 수 없습니다: %s
+
+commands.force-kick.description=게임에서 플레이어를 강제로 내보냅니다.
+commands.force-kick.success=성공적으로 게임에서 플레이어를 내보냈습니다.
+
+commands.spawn-protection.description=스폰 보호 시스템
+commands.spawn-protection.success=스폰 보호 상태: %s.
