@@ -4,7 +4,7 @@ commands.generic.error.invalidPlayer='%s' 명령은 플레이어만 사용할 �
 
 commands.tpa.description=플레이어에게 tpa 요청을 보냅니다.
 commands.tpa.error.pending=보류 중인 tpa 요청이 있습니다.
-commands.tpa.message.sent=%s님이 순간 이동하도록 요청했습니다.
+commands.tpa.message.sent=%s님이 순간 이동을 요청했습니다.
 commands.tpa.message.reject=대상 플레이어가 순간 이동 요청을 거부했습니다.
 commands.tpa.success=순간 이동 요청이 전송되었습니다.
 commands.tpa.error.empty=보류 중인 순간 이동 요청이 없습니다.
