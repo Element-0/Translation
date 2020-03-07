@@ -1,0 +1,59 @@
+commands.generic.selector.empty=Pas de cibles sélectionnées.
+commands.generic.selector.tooManyTargets=Trop de cibles sélectionnées.
+commands.generic.error.invalidPlayer='%s', Cette commande peut seulement être utilisée par des joueurs.
+
+commands.tpa.description=Envoyer une demande de tpa à un joueur.
+commands.tpa.error.pending=La cible a une demande de téléportation en cours.
+commands.tpa.message.sent=%s Demande à se téléporter près de vous.
+commands.tpa.message.reject=La cible a rejeté votre demande de téléportation.
+commands.tpa.success=Demande de téléportation envoyé.
+commands.tpa.error.empty=Vous n'avez pas de demande de téléportation en cours.
+commands.tpaccept.success=Demande de téléportation accepté de la part de %s.
+commands.tpdeny.success=Demande de téléportation refusé de la part de %s.
+commands.tpaccept.description=Accepté une demande de téléportation.
+commands.tpdeny.description=Refusé une demande de téléportation.
+
+commands.custom-name.description=Utilisé un nom customisé.
+commands.custom-name.success.set=Le changement de nom a bien été effectué pour %d joueurs.
+commands.custom-name.success.clear=Le changement de nom par défaut a bien été effectué %d joueurs.
+
+commands.ban.description=Ajouté un joueur à la blacklist.
+commands.ban.success.uuid=Vous avez banni %s (UUID: %s).
+commands.ban.success.xuid=Vous avez banni %s (XUID: %d).
+commands.ban.error.unexpected=Erreur imprévue, le joueur n'a pas pu être trouvé.
+commands.ban.error.no.empty=Impossible de bannir un nom vide.
+commands.ban.success.name=Vous avez banni %s.
+
+commands.unban.description=Débannir un joueur, vous pouvez utiliser uuid/xuid/name.
+commands.unban.success.uuid=Vous avez révoqué le bannissement de uuid %s.
+commands.unban.success.xuid=Vous avez révoqué le bannissement de xuid %d.
+commands.unban.success.name=Vous avez révoqué le bannissement de %s.
+commands.unban.error.not.found=%s Ne peut être débanni, vérifiez votre orthographe.
+commands.unban.error.no.empty=Impossible de bannir un nom vide.
+commands.unban.error.not.found.uuid=UUID %s n'est pas banni.
+commands.unban.error.not.found.xuid=XUID %s n'est pas banni.
+commands.unban.error.not.found.xuid=%s ne peut-être banni, vérifiez votre orthographe.
+
+commands.audit.description=Actions Détaillées des joueurs.
+commands.audit.success=Statut des actions: %s.
+
+commands.home.description=Téléporter un joueur à la maison.
+commands.home.error=Vous n'avez pas de maison.
+commands.home.success=Téléporté à la maison.
+
+commands.warp.description=Système de warp.
+commands.warp.success.count=Vous avez %d warps.
+commands.warp.success.list=[%s@%d] (%s)
+commands.warp.error.format=Format de warp nommé n'est pas acceptable.
+commands.warp.success.warp=Vous avez été téléporté à %s (Location: %s).
+commands.warp.error.warp.not.found=Impossible de trouver le warp %s.
+commands.warp.success.set=Warp %s enregistré (Location： %s).
+commands.warp.success.del=Warp %s supprimé.
+commands.warp.error.set=Impossible de définir le warp %s: %s
+commands.warp.error.del=Impossible de supprimer le warp %s: %s
+
+commands.force-kick.description=Exclure les joueurs de force.
+commands.force-kick.success=Joueur explusé avec succès.
+
+commands.spawn-protection.description=Système de protection du Spawn
+commands.spawn-protection.success=Statut de la protection du Spawn: %s.
