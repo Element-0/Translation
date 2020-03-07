@@ -1,0 +1,59 @@
+commands.generic.selector.empty=No hay objetivo seleccionado.
+commands.generic.selector.tooManyTargets=Demasiados objetivos emparejados con la entidad elegida.
+commands.generic.error.invalidPlayer='%s', Este comando solo puede ser utilizado por jugadores.
+
+commands.tpa.description=Envía petición de teletransportación a jugadores. 
+commands.tpa.error.pending=Tu objetivo tiene una orden tpa pendiente.
+commands.tpa.message.sent=%s ha pedido teletransportarse hacia ti.
+commands.tpa.message.reject= El jugador ha rechazado la petición de teletransporte.
+commands.tpa.success=Petición de teletransporte enviada.
+commands.tpa.error.empty=No tienes peticiones de teletransportación pendientes.
+commands.tpaccept.success=Petición de teletransporte de %s ha sido aceptada.
+commands.tpdeny.success=Petición de teletransporte de %s ha sido rechazada.
+commands.tpaccept.description=La petición de teletransporte fué aceptada.
+commands.tpdeny.description=La etición de teñetransporte ha sido rechazada.
+
+commands.custom-name.description=Establece nombre personalizado.
+commands.custom-name.success.set=Se ha establecido con éxito el nombre de %d jugadores.
+commands.custom-name.success.clear=Se ha reiniciado con éxito el nombre de %d jugadores.
+
+commands.ban.description=Añade jugadores a la lista negra.
+commands.ban.success.uuid=%s baneado con éxito (UUID: %s).
+commands.ban.success.xuid=%s baneado con éxito (XUID: %d).
+commands.ban.error.unexpected=Error ineserado, el jugador no se puede encontrar o no existe.
+commands.ban.error.no.empty=No se ha podido banear al nombre vacío.
+commands.ban.success.name=%s fué baneado con éxito.
+
+commands.unban.description=Disculpad jugadores, Podeis usar uuid/xuid/name.
+commands.unban.success.uuid=Desbaneado con éxito a uuid %s.
+commands.unban.success.xuid=Desbaneado con éxito a xuid %d.
+commands.unban.success.name=%s fué puesto en lista blanca con éxito.
+commands.unban.error.not.found=%s no puede ser puesto en Lista blanca, revisa lo que has escrito e intenta de nuevo.
+commands.unban.error.no.empty=Error intentando poner en Lista blanca al nombre vacío.
+commands.unban.error.not.found.uuid=UUID %s no ha sido baneado.
+commands.unban.error.not.found.xuid=XUID %s no ha sido baneado.
+commands.unban.error.not.found.xuid=No se puede poner en Lista blanca a %s , revisa lo que has escrito e intenta de nuevo.
+
+commands.audit.description=Registro de acciones del jugador.
+commands.audit.success=Estado de auditoría: %s.
+
+commands.home.description=Teletransporta jugadores a sus respectivas casas/home.
+commands.home.error=No tienes ninguna casa/home.
+commands.home.success=Teletransportado a casa/home.
+
+commands.warp.description=Sistema de Punto de teletransporte.
+commands.warp.success.count=Your have %d Puntos de teletransporte.
+commands.warp.success.list=[%s@%d] (%s)
+commands.warp.error.format=Nombre de Pumto de twletransporte np puede ser aceptado.
+commands.warp.success.warp=Has sido teletransportado con éxito a %s (Location: %s).
+commands.warp.error.warp.not.found=No se puede encontrar a %s.
+commands.warp.success.set=Punto de teletransporte %s grabado! (Location： %s).
+commands.warp.success.del=Punto de teletransporte %s eliminado!.
+commands.warp.error.set=No se puede establecer como Punto de teletransporte a  %s: %s
+commands.warp.error.del=No se puede eliminar el Punto de teletransporte %s: %s
+
+commands.force-kick.description=Fuerza expulsión a jugador.
+commands.force-kick.success=Jugador removido exitosamente.
+
+commands.spawn-protection.description=Sistema de proteccion de Spawn
+commands.spawn-protection.success=Estado de protección de Spawn: %s.
