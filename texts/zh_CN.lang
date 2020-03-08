@@ -59,3 +59,14 @@ commands.force-kick.success=成功移除玩家。
 
 commands.spawn-protection.description=出生点保护系统。
 commands.spawn-protection.success=出生点保护状态： %s。
+
+commands.balance.description=查询余额。
+commands.balance.success=当前可用余额：%d。
+
+commands.update-balance.description=更新玩家余额。
+commands.update-balance.success=成功更新玩家余额。
+commands.update-balance.entry=正在更新 %s 的余额，变更了 %d，当前剩余 %d。
+commands.update-balance.error=无法更新玩家 %s 的余额: %s。此会话产生的所有操作已经回滚。
+
+commands.get-balance.description=获取玩家的余额。
+commands.get-balance.success=玩家 %s 的余额是 %d。
