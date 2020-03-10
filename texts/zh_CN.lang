@@ -43,6 +43,10 @@ commands.home.description=传送到玩家出生点。
 commands.home.error=无法传送到玩家出生点：尚未设置。
 commands.home.success=已经传送到出生点。
 
+commands.spawn.description=传送到世界出生点。
+commands.spawn.success=成功传送至世界出生点。
+commands.spawn.error.not.set=错误：世界出生点尚未设置。
+
 commands.warp.description=传送系统
 commands.warp.success.count.global=全局传送点数量： %d
 commands.warp.success.count=传送点数量： %d
@@ -54,6 +58,8 @@ commands.warp.success.set=传送点 %s 已经设置 (坐标：%s)。
 commands.warp.success.del=传送点 %s 已被删除。
 commands.warp.error.set=无法设置传送点 %s: %s。
 commands.warp.error.del=无法删除传送点 %s: %s。
+
+commands.global-warp.description=设置全局传送点。
 
 commands.force-kick.description=强制踢人指令。
 commands.force-kick.success=成功移除玩家。
@@ -71,7 +77,3 @@ commands.update-balance.error=无法更新玩家 %s 的余额: %s。此会话产
 
 commands.get-balance.description=获取玩家的余额。
 commands.get-balance.success=玩家 %s 的余额是 %d。
-
-commands.spawn.description=传送到世界出生点。
-commands.spawn.success=成功传送至世界出生点。
-commands.spawn.error.not.set=错误：世界出生点尚未设置。
