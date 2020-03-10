@@ -44,6 +44,7 @@ commands.home.error=无法传送到玩家出生点：尚未设置。
 commands.home.success=已经传送到出生点。
 
 commands.warp.description=传送系统
+commands.warp.success.count.global=全局传送点数量： %d
 commands.warp.success.count=传送点数量： %d
 commands.warp.success.list=[%s@%d] (%s)
 commands.warp.error.format=名字格式错误
@@ -70,3 +71,7 @@ commands.update-balance.error=无法更新玩家 %s 的余额: %s。此会话产
 
 commands.get-balance.description=获取玩家的余额。
 commands.get-balance.success=玩家 %s 的余额是 %d。
+
+commands.spawn.description=传送到世界出生点。
+commands.spawn.success=成功传送至世界出生点。
+commands.spawn.error.not.set=错误：世界出生点尚未设置。
