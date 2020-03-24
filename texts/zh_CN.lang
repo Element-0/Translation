@@ -1,3 +1,5 @@
+accessibility.chat.howtoopen=§3Element§bZero §f零度元素
+
 commands.generic.selector.empty=目标选择器结果为空。
 commands.generic.selector.tooManyTargets=目标选择器返回的结果太多。
 commands.generic.error.invalidPlayer='%s' 指令只能被玩家使用。
