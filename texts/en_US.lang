@@ -1,11 +1,15 @@
+accessibility.chat.howtoopen=§3Element§bZero §fby CodeHz, Translated by HongyiMC
+
 commands.generic.selector.empty=Missing target selector.
 commands.generic.selector.tooManyTargets=Too many targets matched selector.
 commands.generic.error.invalidPlayer='%s', this command can only used by players.
 
 commands.tpa.description=Send tpa request to players.
-commands.tpa.error.pending=Target has a pending tpa request.
+commands.tpa.error.pending.source=You do not have a teleport request pending.
+commands.tpa.error.pending.target=Target has a pending teleport request.
 commands.tpa.message.sent=%s requested to teleport to you.
-commands.tpa.message.reject=Target has rejected your teleport request.
+commands.tpa.message.timeout=Teleport request timed out.
+commands.tpa.message.reject=Your teleport request is rejected.
 commands.tpa.success=Teleport request sent.
 commands.tpa.error.empty=You have no pending teleport request.
 commands.tpaccept.success=Accepted teleport request from %s.
@@ -41,7 +45,12 @@ commands.home.description=Teleport players to home.
 commands.home.error=You have no home set.
 commands.home.success=Teleported to home.
 
+commands.spawn.description=Teleport to server spawn.
+commands.spawn.success=Sending you to server spawn.
+commands.spawn.error.not.set=Failed to teleport to spawn.
+
 commands.warp.description=Warp system.
+commands.warp.success.count.global=Global warp amount： %d
 commands.warp.success.count=Your have %d warps.
 commands.warp.success.list=[%s@%d] (%s)
 commands.warp.error.format=Format for warp name is unacceptable.
@@ -52,8 +61,21 @@ commands.warp.success.del=Warp %s deleted.
 commands.warp.error.set=Unable to set warp %s: %s
 commands.warp.error.del=Unable to delete warp %s: %s
 
+commands.global-warp.description=Set up global warp location.
+
 commands.force-kick.description=Force kick player.
 commands.force-kick.success=Successfully removed player.
 
-commands.spawn-protection.description=Spawn Protection system
+commands.spawn-protection.description=Spawn Protection system.
 commands.spawn-protection.success=Spawn Protection status: %s.
+
+commands.balance.description=Check your balance.
+commands.balance.success=Your current balance: %d.
+
+commands.update-balance.description=Update player balance.
+commands.update-balance.success=Successfully updated player balance.
+commands.update-balance.entry=Updating balance for %s, %d changed, Currently %d.
+commands.update-balance.error=Unable to update balance for %s: %s, return 0.
+
+commands.get-balance.description=Check player's balance.
+commands.get-balance.success=Player %s's balance is %d.
