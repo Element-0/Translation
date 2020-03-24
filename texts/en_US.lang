@@ -50,13 +50,13 @@ commands.spawn.success=Sending you to server spawn.
 commands.spawn.error.not.set=Failed to teleport to spawn.
 
 commands.warp.description=Warp system.
-commands.warp.success.count.global=Global warp amount： %d
+commands.warp.success.count.global=Global warp amount: %d
 commands.warp.success.count=Your have %d warps.
 commands.warp.success.list=[%s@%d] (%s)
 commands.warp.error.format=Format for warp name is unacceptable.
 commands.warp.success.warp=Teleported you to %s (Location: %s).
 commands.warp.error.warp.not.found=Unable to find warp %s.
-commands.warp.success.set=Warp %s recorded (Location： %s).
+commands.warp.success.set=Warp %s recorded (Location: %s).
 commands.warp.success.del=Warp %s deleted.
 commands.warp.error.set=Unable to set warp %s: %s
 commands.warp.error.del=Unable to delete warp %s: %s
