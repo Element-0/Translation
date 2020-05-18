@@ -79,3 +79,5 @@ commands.update-balance.error=Unable to update balance for %s: %s, return 0.
 
 commands.get-balance.description=Check player's balance.
 commands.get-balance.success=Player %s's balance is %d.
+
+signcommand.set=Sign command set: %s
