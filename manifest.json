@@ -4,14 +4,14 @@
     "name": "ElementZero Text Resources",
     "description": "For ElementZero",
     "uuid": "06e3570b-2d86-4a60-9a0c-9c4ac03ec876",
-    "version": [0, 0, 1]    
+    "version": [0, 0, 2]
   },
   "modules": [
     {
       "description": "For ElementZero",
       "type": "resources",
       "uuid": "14a353b5-7b19-4f1d-ae8f-7e9e8446dc81",
-      "version": [0, 0, 1]
+      "version": [0, 0, 2]
     }
   ]
 }
