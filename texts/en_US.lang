@@ -81,3 +81,6 @@ commands.get-balance.description=Check player's balance.
 commands.get-balance.success=Player %s's balance is %d.
 
 signcommand.set=Sign command set: %s
+
+commands.net-stat.description=Network statistics
+commands.net-stat.result=ping: %d (average: %d) packet loss: %d (average: %d)
