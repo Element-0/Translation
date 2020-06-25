@@ -80,5 +80,7 @@ commands.update-balance.error=无法更新玩家 %s 的余额: %s。此会话产
 commands.get-balance.description=获取玩家的余额。
 commands.get-balance.success=玩家 %s 的余额是 %d。
 
+signcommand.set=指令牌设置为：%s
+
 commands.net-stat.description=查询服务器连接延迟
 commands.net-stat.result=延迟: %d 平均延迟: %d 丢包率: %d 平均丢包率: %d
