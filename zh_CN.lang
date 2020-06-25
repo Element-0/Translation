@@ -1,0 +1,86 @@
+accessibility.chat.howtoopen=§3Element§bZero §f0号元素
+
+commands.generic.selector.empty=目标选择器结果为空。
+commands.generic.selector.tooManyTargets=目标选择器返回的结果太多。
+commands.generic.error.invalidPlayer='%s' 指令只能被玩家使用。
+
+commands.tpa.description=向一名玩家发送传送请求。
+commands.tpa.error.pending.source=当前您还有正在进行的传送请求。
+commands.tpa.error.pending.target=当前对方还有正在等待决定的传送请求。
+commands.tpa.message.sent=%s 向您发起了传送请求。
+commands.tpa.message.timeout=上一个传送请求已经超时。
+commands.tpa.message.reject=传送请求被拒绝。
+commands.tpa.success=传送请求发送成功。
+commands.tpa.error.empty=当前没有正在进行的传送请求。
+commands.tpaccept.success=已接受来自 %s 的传送请求。
+commands.tpdeny.success=已拒绝来自 %s 的传送请求。
+commands.tpaccept.description=接受传送请求。
+commands.tpdeny.description=拒绝传送请求。
+
+commands.custom-name.description=设置玩家称号（前缀或者后缀）。
+commands.custom-name.success.set=成功设置了 %d 位玩家的自定义称号。
+commands.custom-name.success.clear=成功清除了 %d 位玩家的自定义称号。
+
+commands.ban.description=将玩家添加到黑名单。
+commands.ban.success.uuid=成功封禁玩家 %s (UUID: %s)。
+commands.ban.success.xuid=成功封禁玩家 %s (XUID: %d)。
+commands.ban.error.unexpected=未预期的错误，可能玩家已经离开服务器。
+commands.ban.error.no.empty=不能封禁空白名字。
+commands.ban.success.name=成功封禁玩家 %s。
+
+commands.unban.description=取消封禁玩家，支持 uuid/xuid/name。
+commands.unban.success.uuid=已经取消封禁 uuid %s。
+commands.unban.success.xuid=已经取消封禁 xuid %d。
+commands.unban.success.name=已经取消封禁 %s。
+commands.unban.error.not.found= %s 玩家未被封禁。
+commands.unban.error.no.empty=不能解除封禁空白名字。
+commands.unban.error.not.found.uuid=UUID %s 未被封禁。
+commands.unban.error.not.found.xuid=XUID %s 未被封禁。
+commands.unban.error.not.found.xuid=%s 未被封禁或语法错误。
+
+commands.audit.description=行为审计系统管理。
+commands.audit.success=审计系统状态: %s。
+
+commands.home.description=传送到玩家出生点。
+commands.home.error=无法传送到玩家出生点：尚未设置。
+commands.home.success=已经传送到出生点。
+
+commands.spawn.description=传送到世界出生点。
+commands.spawn.success=成功传送至世界出生点。
+commands.spawn.error.not.set=错误：世界出生点尚未设置。
+
+commands.warp.description=传送系统
+commands.warp.success.count.global=全局传送点数量： %d
+commands.warp.success.count=传送点数量： %d
+commands.warp.success.list=[%s@%d] (%s)
+commands.warp.error.format=名字格式错误
+commands.warp.success.warp=已经传送到 %s (坐标：%s)。
+commands.warp.error.warp.not.found=无法找到 %s 传送点。
+commands.warp.success.set=传送点 %s 已经设置 (坐标：%s)。
+commands.warp.success.del=传送点 %s 已被删除。
+commands.warp.error.set=无法设置传送点 %s: %s。
+commands.warp.error.del=无法删除传送点 %s: %s。
+
+commands.global-warp.description=设置全局传送点。
+
+commands.force-kick.description=强制踢人指令。
+commands.force-kick.success=成功移除玩家。
+
+commands.spawn-protection.description=出生点保护系统。
+commands.spawn-protection.success=出生点保护状态： %s。
+
+commands.balance.description=查询余额。
+commands.balance.success=当前可用余额：%d。
+
+commands.update-balance.description=更新玩家余额。
+commands.update-balance.success=成功更新玩家余额。
+commands.update-balance.entry=正在更新 %s 的余额，变更了 %d，当前剩余 %d。
+commands.update-balance.error=无法更新玩家 %s 的余额: %s。此会话产生的所有操作已经回滚。
+
+commands.get-balance.description=获取玩家的余额。
+commands.get-balance.success=玩家 %s 的余额是 %d。
+
+signcommand.set=指令牌设置为：%s
+
+commands.net-stat.description=查询服务器连接延迟
+commands.net-stat.result=延迟: %d 平均延迟: %d 丢包率: %d 平均丢包率: %d
