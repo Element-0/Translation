@@ -1,81 +1,85 @@
 ﻿accessibility.chat.howtoopen=§3Element§bZero §fby CodeHz, Translated by HongyiMC
+commands.generic.selector.empty=Отсутствует цель.
+commands.generic.selector.tooManyTargets=Слишком много целей.
+commands.generic.error.invalidPlayer='%s', эта команда может быть использована только игроком.
 
-commands.generic.selector.empty=Missing target selector.
-commands.generic.selector.tooManyTargets=Too many targets matched selector.
-commands.generic.error.invalidPlayer='%s', this command can only used by players.
+commands.tpa.description=Отправить запрос на телепорт другому игроку.
+commands.tpa.error.pending.source=Вы уже отправили запрос на телепорт.
+commands.tpa.error.pending.target=У игрока уже есть неотвеченный запрос на телепорт.
+commands.tpa.message.sent=%s хочет телепортироваться к вам.
+commands.tpa.message.timeout=Время ответа на запрос телепорта истекло.
+commands.tpa.message.reject=Ваш запрос на телепорт был отклонен.
+commands.tpa.success=Запрос на телепорт отправлен.
+commands.tpa.error.empty=Нет ожидающих подтверждения запросов на телепорт.
+commands.tpaccept.success=Запрос на телепорт от %s одобрен.
+commands.tpdeny.success=Запрос на телепорт от %s отклонен.
+commands.tpaccept.description=Подтвердить запрос на телепорт.
+commands.tpdeny.description=Отклонить запрос на телепорт.
 
-commands.tpa.description=Send tpa request to players.
-commands.tpa.error.pending.source=You do not have a teleport request pending.
-commands.tpa.error.pending.target=Target has a pending teleport request.
-commands.tpa.message.sent=%s requested to teleport to you.
-commands.tpa.message.timeout=Teleport request timed out.
-commands.tpa.message.reject=Your teleport request is rejected.
-commands.tpa.success=Teleport request sent.
-commands.tpa.error.empty=You have no pending teleport request.
-commands.tpaccept.success=Accepted teleport request from %s.
-commands.tpdeny.success=Denied teleport request from %s.
-commands.tpaccept.description=Accepted teleport request.
-commands.tpdeny.description=Denied teleport request.
+commands.custom-name.description=Задать кастомное имя.
+commands.custom-name.success.set=Кастомное имя успешно присвоено для %d игроков.
+commands.custom-name.success.clear=Кастомное имя успешно сброшено для %d игроков.
 
-commands.custom-name.description=Set custom name.
-commands.custom-name.success.set=Successfully changed custom name for %d players.
-commands.custom-name.success.clear=Successfully reset custom name for %d players.
+commands.ban.description=Забанить игрока.
+commands.ban.success.uuid=Забанен игрок %s (UUID: %s).
+commands.ban.success.xuid=Забанен игрок %s (XUID: %d).
+commands.ban.error.unexpected=Указанный игрок не найден.
+commands.ban.error.no.empty=Невозможно забанить, ник не указан.
+commands.ban.success.name=Забанен игрок %s.
 
-commands.ban.description=Add players to the blacklist.
-commands.ban.success.uuid=Banned %s (UUID: %s).
-commands.ban.success.xuid=Banned %s (XUID: %d).
-commands.ban.error.unexpected=Unexpected error, the player can not be found.
-commands.ban.error.no.empty=Failed to ban empty name.
-commands.ban.success.name=Banned %s.
+commands.unban.description=Разбанить игрока по uuid/xuid/имени.
+commands.unban.success.uuid=Игрок с uuid %s разбанен.
+commands.unban.success.xuid=Игрок с xuid %d разбанен.
+commands.unban.success.name=Игрок %s разбанен.
+commands.unban.error.not.found=%s не может быть разбанен, проверьте, нет ли ошибки в имени.
+commands.unban.error.no.empty=Невозможно разбанить, ник не указан.
+commands.unban.error.not.found.uuid=UUID %s не находится в бане.
+commands.unban.error.not.found.xuid=XUID %s не находится в бане.
+commands.unban.error.not.found.xuid=%s не может быть разбанен, проверьте правильность указания XUID.
 
-commands.unban.description=Pardon players, you can use uuid/xuid/name.
-commands.unban.success.uuid=Unbanned uuid %s.
-commands.unban.success.xuid=Unbanned xuid %d.
-commands.unban.success.name=Unbanned %s.
-commands.unban.error.not.found=%s can not be unbanned, please check your spelling.
-commands.unban.error.no.empty=Failed to unban empty name.
-commands.unban.error.not.found.uuid=UUID %s is not banned.
-commands.unban.error.not.found.xuid=XUID %s is not banned.
-commands.unban.error.not.found.xuid=%s can not be unbanned, please check your spelling.
+commands.audit.description=Логирование (аудит) действий игроков.
+commands.audit.success=Статус аудита: %s.
 
-commands.audit.description=Player action log.
-commands.audit.success=Audit status: %s.
+commands.home.description=Телепортироваться домой.
+commands.home.error=Точка дома не задана. Возможно, отсутствует кровать.
+commands.home.success=Вы телепортировались домой.
 
-commands.home.description=Teleport players to home.
-commands.home.error=You have no home set.
-commands.home.success=Teleported to home.
+commands.spawn.description=Телепортироваться на спавн.
+commands.spawn.success=Вы телепортировались на спавн.
+commands.spawn.error.not.set=Не удалось телепортироваться на спавн.
 
-commands.spawn.description=Teleport to server spawn.
-commands.spawn.success=Sending you to server spawn.
-commands.spawn.error.not.set=Failed to teleport to spawn.
-
-commands.warp.description=Warp system.
-commands.warp.success.count.global=Global warp amount: %d
-commands.warp.success.count=Your have %d warps.
+commands.warp.description=Система варпов.
+commands.warp.success.count.global=Количество публичных варпов: %d
+commands.warp.success.count=У вас есть %d личных варпов (домов).
 commands.warp.success.list=[%s@%d] (%s)
-commands.warp.error.format=Format for warp name is unacceptable.
-commands.warp.success.warp=Teleported you to %s (Location: %s).
-commands.warp.error.warp.not.found=Unable to find warp %s.
-commands.warp.success.set=Warp %s recorded (Location: %s).
-commands.warp.success.del=Warp %s deleted.
-commands.warp.error.set=Unable to set warp %s: %s
-commands.warp.error.del=Unable to delete warp %s: %s
+commands.warp.error.format=Имя для варпа задано некорректно.
+commands.warp.success.warp=Вы телепортировались в %s (%s).
+commands.warp.error.warp.not.found=Не удалось найти варп %s.
+commands.warp.success.set=Варп %s успешно добавлен (%s).
+commands.warp.success.del=Варп %s удален.
+commands.warp.error.set=Невозможно добавить варп %s: %s
+commands.warp.error.del=Ошибка при удалении варпа %s: %s
 
-commands.global-warp.description=Set up global warp location.
+commands.global-warp.description=Система глобальных (публичных) варпов.
 
-commands.force-kick.description=Force kick player.
-commands.force-kick.success=Successfully removed player.
+commands.force-kick.description=Кикнуть игрока.
+commands.force-kick.success=Игрок был успешно кикнут.
 
-commands.spawn-protection.description=Spawn Protection system.
-commands.spawn-protection.success=Spawn Protection status: %s.
+commands.spawn-protection.description=Защита спавна.
+commands.spawn-protection.success=Статус защиты спавна: %s.
 
-commands.balance.description=Check your balance.
-commands.balance.success=Your current balance: %d.
+commands.balance.description=Проверить свой баланс.
+commands.balance.success=Ваш баланс: %d .
 
-commands.update-balance.description=Update player balance.
-commands.update-balance.success=Successfully updated player balance.
-commands.update-balance.entry=Updating balance for %s, %d changed, Currently %d.
-commands.update-balance.error=Unable to update balance for %s: %s, return 0.
+commands.update-balance.description=Обновить баланс игрока.
+commands.update-balance.success=Баланс игрока успешно обновлен.
+commands.update-balance.entry=Баланс игрока %s изменен на %d и составляет %d .
+commands.update-balance.error=Ошибка при обновлении баланса игрока %s: %s.
 
-commands.get-balance.description=Check player's balance.
-commands.get-balance.success=Player %s's balance is %d.
+commands.get-balance.description=Проверить баланс другого игрока.
+commands.get-balance.success=Баланс игрока %s: %d .
+
+signcommand.set=Команда для указателя добавлена: %s
+
+commands.net-stat.description=Статистика работы сети
+commands.net-stat.result=пинг: %d (среднее: %d) потеря пакетов: %d (среднее: %d).
