@@ -60,6 +60,13 @@ commands.warp.success.set=Warp %s recorded (Location: %s).
 commands.warp.success.del=Warp %s deleted.
 commands.warp.error.set=Unable to set warp %s: %s
 commands.warp.error.del=Unable to delete warp %s: %s
+ui.warp.title=Warp system
+ui.warp.content=Select which global warp point to teleport.
+ui.warp.content.local=Select which warp point to teleport.
+ui.warp.content.empty.both=There are no warp point in database.
+ui.warp.content.modal.button1=OK
+ui.warp.content.modal.button2=Cancel
+ui.warp.jump=Jump to local warp list
 
 commands.global-warp.description=Set up global warp location.
 
