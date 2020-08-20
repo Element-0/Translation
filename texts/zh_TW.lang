@@ -1,4 +1,4 @@
-﻿accessibility.chat.howtoopen=§3Element§bZero §f0號元素
+accessibility.chat.howtoopen=§3Element§bZero §f0號元素
 
 commands.generic.selector.empty=目標選擇器結果為空。
 commands.generic.selector.tooManyTargets=目標選擇器返回的結果太多。
@@ -60,6 +60,13 @@ commands.warp.success.set=傳送點 %s 已經設置 (坐標：%s)。
 commands.warp.success.del=傳送點 %s 已被刪除。
 commands.warp.error.set=無法設置傳送點 %s: %s。
 commands.warp.error.del=無法刪除傳送點 %s: %s。
+ui.warp.title=传送系统
+ui.warp.content=选择需要传送的全局传送点。
+ui.warp.content.local=选择需要传送的传送点。
+ui.warp.content.empty.both=数据库里没有记录任何传送点。
+ui.warp.content.modal.button1=确认
+ui.warp.content.modal.button2=取消
+ui.warp.jump=跳转到本地传送列表
 
 commands.global-warp.description=設置全局傳送點。
 
