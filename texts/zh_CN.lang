@@ -60,6 +60,13 @@ commands.warp.success.set=传送点 %s 已经设置 (坐标：%s)。
 commands.warp.success.del=传送点 %s 已被删除。
 commands.warp.error.set=无法设置传送点 %s: %s。
 commands.warp.error.del=无法删除传送点 %s: %s。
+ui.warp.title=传送系统
+ui.warp.content=选择需要传送的全局传送点。
+ui.warp.content.local=选择需要传送的传送点。
+ui.warp.content.empty.both=数据库里没有记录任何传送点。
+ui.warp.content.modal.button1=确认
+ui.warp.content.modal.button2=取消
+ui.warp.jump=跳转到本地传送列表
 
 commands.global-warp.description=设置全局传送点。
 
